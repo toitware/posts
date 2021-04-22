@@ -1,0 +1,13 @@
+# Copyright (C) 2020 Toitware ApS. All rights reserved.
+# Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
+
+# Specification file for publish.toit program.
+
+# filename: publish.yaml
+
+name: Publisher app
+entrypoint: publish.toit
+triggers:
+  on_install: true
+  on_interval: 1m
+ 
