@@ -1,9 +1,10 @@
-// Copyright (C) 2020 Toitware ApS. All rights reserved.
+// Copyright (C) 2021 Toitware ApS. All rights reserved.
 // Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
-/// Program measuring temperature, relative humidity, and atmospheric pressure with a BME280
-
-/// filename: weather-station.toit
+/**
+Program measuring temperature, relative humidity, and atmospheric pressure
+  with a BME280.
+*/
 
 import gpio
 import serial.protocols.i2c as i2c
