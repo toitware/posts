@@ -1,0 +1,13 @@
+# Copyright (C) 2020 Toitware ApS. All rights reserved.
+# Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
+
+# Specification file for the subscribe.toit program.
+
+# filename: subscribe.yaml
+
+name: Subscriber app
+entrypoint: subscribe.toit
+
+triggers:
+  on_pubsub_topic:
+   - "cloud:hello-world"
